@@ -9,9 +9,9 @@
 // var person = JSON.parse(personString);
 // console.log(typeof(person));
 // console.log(person);
- 
+
 const fs = require('fs');
- 
+
 var originalNote = {
 	title: 'Some title',
 	body: 'Some Body'

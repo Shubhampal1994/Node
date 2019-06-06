@@ -35,6 +35,6 @@ geocode.geocodeAddress(argv.address, (errorMessage, results) => {
 				console.log(`The actual temperature in ${weatherResults.timezone}: ${weatherResults.temperature}°c`);
 				console.log(`And it feels like: ${weatherResults.apparentTemperature}°c`);
 			}
-		});		
+		});
 	}
 });

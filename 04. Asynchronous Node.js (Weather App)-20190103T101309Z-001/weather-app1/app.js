@@ -14,8 +14,6 @@ const argv = yargs
 	.alias('help', 'h')
 	.argv;
 
-console.log(argv);
-
 request({
 	url: 'https://jsonplaceholder.typicode.com/users',
 	json: true
@@ -28,3 +26,4 @@ request({
 	console.log(`Address: ${JSON.stringify(body[0].address)}`);
 });
 
+ // a8a4336a6db41b44fddacbebfd0a69ea
