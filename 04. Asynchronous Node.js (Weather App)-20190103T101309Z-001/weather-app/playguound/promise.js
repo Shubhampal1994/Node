@@ -23,7 +23,7 @@ var asyncAdd = (a, b) => {
 
 asyncAdd(-3, 4).then((res) => {
 	console.log('Result: ', res);
-	return asyncAdd(res, '11');
+	return asyncAdd(1, 11);
 }).then((res) => {
 	console.log('New Result: ', res);
 }).catch((errorMessage) => {
