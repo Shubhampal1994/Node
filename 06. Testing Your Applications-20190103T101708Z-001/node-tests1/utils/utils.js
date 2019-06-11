@@ -1,3 +1,18 @@
-module.exports.add = (a, b) => a + b;
+var add = (a, b) => a + b;
 
-module.exports.square = (x) => x * x;
+var square = (x) => x * x;
+
+var setName = (user, fullName) => {
+	var nameArray = fullName.split(' ');
+	user.firstName = nameArray[0];
+	user.lastName = nameArray[1];
+	return user;
+};
+
+module.exports = {
+	add,
+	square,
+	setName
+}
+
+setName('user', 'Shubham Paliwal');
