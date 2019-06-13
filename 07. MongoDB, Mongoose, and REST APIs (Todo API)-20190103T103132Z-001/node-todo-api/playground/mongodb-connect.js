@@ -2,6 +2,13 @@
 const {MongoClient} = require('mongodb');
 
 
+// ES6 Destructuring
+// =================
+// var user = {name: 'shubham', age: 25};
+// var {name} = user;
+// console.log(name);
+
+
 MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, client) => {
 	if (err) {
 		return console.log('Unable to connect to MongoDB server');
